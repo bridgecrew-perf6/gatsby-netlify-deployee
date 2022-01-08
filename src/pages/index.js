@@ -1,9 +1,21 @@
-import * as React from "react"
+import * as React from "react";
+import Layout from "../Compunents/layout";
+import ISO6 from "../images/ISO6.png"
 export default function Home() {
   return (
     <div>
-      <h1>Hellow world from gatsby developer Hasibullah Khan</h1>
-      <h1>new update comming soon </h1>
+      <Layout>
+
+        <img
+
+          src={ISO6} alt="site banner"
+          style={{
+
+            // padding: '150px 590px',
+          }}
+
+        />
+      </Layout>
     </div>
   )
 }
